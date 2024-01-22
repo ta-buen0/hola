@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E - commerce</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link rel="stylesheet" href="./bootstrap-5.3.2-dist/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <!--Navbar--> 
+    <nav class="navbar navbar-expand-lg shadow navbar-light py-2 fixed-top">
+    <div class="container-fluid">
+        <a href="#header" class="navbar-brand justify-content-center align-item-center d-flex order-lg-0">
+            <img src="./src/diamond.png" alt="diamond" width="40" height="40">
+            <span class="text-uppercase ms-1 h3">diamond</span>
+        </a>
+
+        <div class="order-lg-2">
+            <button class="btn position-relative" type="button">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span class="position-absolute top-0 start-100 translate-middle
+                badge bg-primary">5</span>
+            </button>
+
+            <button class="btn position-relative" type="button">
+                <i class="fa-solid fa-star"></i>
+                <span class="position-absolute top-0 start-100 translate-middle
+                badge bg-primary">5</span>
+            </button>
+
+            <button class="btn position-relative" type="button">
+                <i class="fa fa-search"></i>
+            </button>
+        </div>
+
+
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse order-lg-1" id="navMenu">
+            <ul class="navbar-nav mx-auto text-center fw-bold">
+                <li class="nav-item px-2 py-2">
+                    <a href="#header" class="nav-link text-uppercase text-dark">Home</a>
+                </li>
+                <li class="nav-item px-2 py-2">
+                    <a href="#Collection" class="nav-link text-uppercase text-dark">Collection</a>
+                </li>
+                <li class="nav-item px-2 py-2">
+                    <a href="#Specials" class="nav-link text-uppercase text-dark">Specials</a>
+                </li>
+                <li class="nav-item px-2 py-2">
+                    <a href="#ring" class="nav-link text-uppercase text-dark">ring</a>
+                </li>
+                <li class="nav-item px-2 py-2">
+                    <a href="aboutus" class="nav-link text-uppercase text-dark">about us</a>
+                </li>
+                <li class="nav-item px-2 py-2">
+                    <a href="#popular" class="nav-link text-uppercase text-dark">popular</a>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+    </nav>
+
+    <!--Header-->
+    <header id="header" class="vh-100 carousel slide" 
+    db-bs-ride="carousel" style="padding-top:104px;">
+
+    </header>
+
+    <script src="./js/jquery-3.7.1.js"></script>
+    <script src="./js/app.js"></script>
+    <script src="./bootstrap-5.3.2-dist/js/bootstrap.min.js"></script>
+
+</body>
+</html>
