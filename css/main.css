@@ -24,6 +24,26 @@
     background-color: aqua;
 }
 
+#header{
+    background: url(../src/fondo\ nevado.png) top/cover no-repeat;
+}
+
+.btn:not(.nav-btns button){
+    background-color: black;
+    color: white;
+    border: 2px solid gray;
+    transition: 0.5s;
+    padding: 10px 28px;
+    border-radius: 25px;
+}
+
+.btn:not(.nav-btns button):hover{
+    background-color: rgb(167, 75, 75);
+    color: white;
+    border-color: 2px solid gray;
+    transition: 0.5s;
+} 
+
 @media(min-width:992px){
     .nav-item{
         border-bottom: none;
