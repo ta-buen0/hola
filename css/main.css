@@ -44,6 +44,46 @@
     transition: 0.5s;
 } 
 
+.title h2::before{
+    position: relative;
+    content: ".";
+    color: var(--green);
+    width: 4px;
+    height: 50px;
+    background-color: var(--green);
+    left: -20px;
+}
+
+.collection-img span{
+    top: 20px;
+    right: 20px;
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    background-color: var(--green);
+    align-items: center;
+}
+
+.best{
+    border-radius: 20px;
+}
+
+.collection-img img{
+    border-radius: 20px;
+}
+
+.img-r{
+    border-radius: 20px;
+}
+
+#offers{
+    background: url(../src/ttt.png) center/cover no-repeat;
+}
+
+#offers .row{
+    min-height: 60vh;
+}
+
 @media(min-width:992px){
     .nav-item{
         border-bottom: none;
